@@ -1,0 +1,4 @@
+node_modules
+server/config/config.js
+server/public_html/js/*
+server/public_html/css/*

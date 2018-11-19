@@ -1,0 +1,6 @@
+const config = {
+	DB: 'mongodb://127.0.0.1/brainhub_task',
+	testDB: 'mongodb://127.0.0.1/brainhub_task_test',
+}
+
+export default config;

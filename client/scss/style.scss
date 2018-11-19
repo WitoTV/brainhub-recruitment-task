@@ -1,0 +1,31 @@
+@import "~react-datepicker/dist/react-datepicker.css";
+
+@import './partials/datepicker';
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	background: rgb(244, 248, 249);
+	font-family: sans-serif;
+}
+
+form {
+	margin-bottom: 0;
+}

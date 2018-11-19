@@ -1,0 +1,80 @@
+@import '~react-redux-toastr/src/styles/animation.scss';
+
+.redux-toastr {
+	.top-left,
+	.top-right,
+	.top-center,
+	.bottom-left,
+	.bottom-right,
+	.bottom-center {
+		position: fixed;
+		transition: 300ms ease;
+		z-index: 999;
+	}
+	.top-left, .top-right, .top-center {
+		top: 15px;
+	}
+
+	.bottom-left, .bottom-right, .bottom-center {
+		bottom: 15px;
+	}
+
+	.top-left, .bottom-left {
+		left: 15px;
+	}
+
+	.top-right, .bottom-right {
+		right: 15px;
+	}
+
+	.top-center, .bottom-center {
+		top: 50%
+	}
+	.toastr {
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        width: 290px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 10px;
+        &.rrt-success {
+            background: rgb(76, 175, 80);
+        }
+        &.rrt-error {
+            background: rgb(244, 64, 52);
+        }
+        .rrt-left-container {
+            display: none;
+        }
+        .rrt-middle-container {
+            color: white;
+            font-weight: 700;
+            .rrt-title {
+                margin-bottom: 10px;
+                font-size: 12px;
+                padding-right: 30px;
+            }
+            .rrt-text {
+                font-weight: 500;
+                font-size: 11px;
+            }
+        }
+        .rrt-right-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            .close-toastr {
+                font-weight: 700;
+                color: white;
+                border: 0;
+                cursor: pointer;
+                padding: 0;
+                margin: 0;
+                background: none;
+                appearance: none;
+                outline: none
+            }
+        }
+    }
+}

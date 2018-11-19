@@ -1,0 +1,1 @@
+I kinda think Redux is useless for this kind of application but well.... here you go :)

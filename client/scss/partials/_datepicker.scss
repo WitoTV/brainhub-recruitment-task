@@ -1,0 +1,39 @@
+.react-datepicker {
+	border-radius: 0;
+    border: 1px solid rgb(185, 187, 187);
+	background-color: rgb(255, 255, 255);
+	&__navigation {
+		&--previous {
+			&--disabled {
+				border-right-color: rgb(230, 230, 230);
+				&:hover {
+					border-right-color: rgb(230, 230, 230) !important;
+				}
+			}
+			&:hover {
+				border-right-color: rgb(0, 150, 136);
+			}
+		}
+		&--next {
+			&--disabled {
+				border-left-color: rgb(230, 230, 230);
+				&:hover {
+					border-left-color: rgb(230, 230, 230) !important;
+				}
+			}
+			&:hover {
+				border-left-color: rgb(0, 150, 136);
+			}
+		}
+	}
+	&__header {
+		border-bottom: 1px solid rgb(185, 187, 187);
+		background-color: rgb(244, 248, 249);
+	}
+	&__day {
+		border-radius: 0 !important;
+		&--selected {
+			background-color: rgb(0, 150, 136) !important;
+		}
+	}
+}
