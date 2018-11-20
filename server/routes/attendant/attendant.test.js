@@ -71,7 +71,7 @@ describe('(Model) Attendant', () => {
 			})
 	});
 	
-	test ('Should add document to collection', (done) => {
+	test ('Shouldn\'t add document to collection', (done) => {
 		const attendantTemplate = {
 			'first_name': '',
 			'last_name': 'Last Name',
